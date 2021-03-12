@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_url" translatable="false">https://api.themoviedb.org/3/</string>
+    <string name="image_base_url" translatable="false">https://image.tmdb.org/t/p/w500</string>
+    <string name="empty_movie_image" translatable="false">https://png.pngtree.com/element_our/png/20181227/movie-icon-which-is-designed-for-all-application-purpose-new-png_287896.jpg</string>
+</resources>

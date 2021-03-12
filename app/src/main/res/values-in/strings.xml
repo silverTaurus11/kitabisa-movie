@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="detail_page">Detail Film</string>
+    <string name="favorite_page">Film Favorit</string>
+    <string name="category">Kategori</string>
+    <string name="favorite_list">List Favorite</string>
+    <string name="popular">Populer</string>
+    <string name="upcoming">Akan Datang</string>
+    <string name="top_rated">Rating Terbaik</string>
+    <string name="now_playing">Sedang Tayang</string>
+    <string name="something_went_wrong">Gagal mendapatkan informasi, silakan coba lagi.</string>
+    <string name="overview">Deskripsi</string>
+    <string name="retry">Ulangi</string>
+    <string name="reviews">Review</string>
+</resources>

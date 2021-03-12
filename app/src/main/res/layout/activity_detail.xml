@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@android:color/transparent"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/movie_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="4dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_margin="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+                        <ImageView
+                            android:id="@+id/movie_image_view"
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            tools:src="@color/blue"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
+                        <TextView
+                            android:id="@+id/title_text_view"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            tools:text="Arrow"
+                            android:textSize="@dimen/font_18"
+                            android:textStyle="bold"
+                            android:maxLines="2"
+                            android:ellipsize="end"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            app:layout_constraintStart_toEndOf="@id/movie_image_view"
+                            app:layout_constraintTop_toTopOf="@id/movie_image_view"
+                            app:layout_constraintEnd_toStartOf="@id/like_button"
+                            tools:ignore="SpUsage" />
+                        <TextView
+                            android:id="@+id/release_date_text_view"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            tools:text="13 Sept 2013"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_14"
+                            app:layout_constraintStart_toStartOf="@id/title_text_view"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/title_text_view"
+                            tools:ignore="SpUsage" />
+                        <ImageView
+                            android:id="@+id/like_button"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            app:srcCompat="@drawable/ic_unfavorite"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription"
+                            android:layout_marginRight="10dp" />
+                        <TextView
+                            android:id="@+id/overview_text_view"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/overview"
+                            android:textSize="@dimen/font_16"
+                            android:textStyle="bold"
+                            android:layout_marginTop="15dp"
+                            android:textColor="@color/black"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="@id/title_text_view"
+                            app:layout_constraintTop_toBottomOf="@id/release_date_text_view"
+                            tools:ignore="SpUsage" />
+                        <TextView
+                            android:id="@+id/description_text_view"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_14"
+                            android:justificationMode="inter_word"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="@id/title_text_view"
+                            app:layout_constraintTop_toBottomOf="@id/overview_text_view"
+                            tools:text="Oliver Queen, playboy miliuner yang pascaterdampar lima tahun di pulau terpencil, kembali pulang bersenjatakan busur &amp; panah untuk menumpas kejahatan di Kota Star sebagai vigilante rahasia bernama Green Arrow."
+                            tools:ignore="SpUsage,UnusedAttribute" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/review_header_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reviews"
+                    android:padding="15dp"
+                    android:textSize="@dimen/font_18"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/review_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        tools:listitem="@layout/movie_review_item"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <include
+        android:id="@+id/loading_and_error_layout"
+        layout="@layout/loading_and_error_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

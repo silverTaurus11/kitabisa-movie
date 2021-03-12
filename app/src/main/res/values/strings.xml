@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Kitabisa Movie</string>
+    <string name="detail_page">Movie Detail</string>
+    <string name="favorite_page">Favorite Movie</string>
+    <string name="category">Category</string>
+    <string name="favorite_list">Favorite List</string>
+    <string name="popular">Popular</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="something_went_wrong">Can\'t get the information, please try again.</string>
+    <string name="overview">Overview</string>
+    <string name="retry">Retry</string>
+    <string name="reviews">Reviews</string>
+</resources>

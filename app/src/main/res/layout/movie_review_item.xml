@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/author_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Arrow"
+        android:textSize="@dimen/font_16"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpUsage" />
+    <TextView
+        android:id="@+id/created_date_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="13 Sept 2013"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_14"
+        app:layout_constraintStart_toStartOf="@id/author_text_view"
+        app:layout_constraintEnd_toEndOf="@id/author_text_view"
+        app:layout_constraintTop_toBottomOf="@id/author_text_view"
+        tools:ignore="SpUsage" />
+    <TextView
+        android:id="@+id/content_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_14"
+        android:justificationMode="inter_word"
+        app:layout_constraintEnd_toEndOf="@id/author_text_view"
+        app:layout_constraintStart_toStartOf="@id/author_text_view"
+        app:layout_constraintTop_toBottomOf="@id/created_date_text_view"
+        tools:text="Oliver Queen, playboy miliuner yang pascaterdampar lima tahun di pulau terpencil, kembali pulang bersenjatakan busur &amp; panah untuk menumpas kejahatan di Kota Star sebagai vigilante rahasia bernama Green Arrow."
+        tools:ignore="SpUsage,UnusedAttribute" />
+</androidx.constraintlayout.widget.ConstraintLayout>
