@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149261170326",
+    "project_id": "faslane-cicd",
+    "storage_bucket": "faslane-cicd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149261170326:android:024bb7461006a9c3f274b7",
+        "android_client_info": {
+          "package_name": "com.fastlane.movies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149261170326-aru2qpsgjf2dkeqtp0q00i03gnhhqcnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiBRC1X3MP-ADKkhk6LxnBVZX0ouHL5Wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149261170326-aru2qpsgjf2dkeqtp0q00i03gnhhqcnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

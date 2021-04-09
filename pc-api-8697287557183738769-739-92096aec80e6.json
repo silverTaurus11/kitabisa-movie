@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pc-api-8697287557183738769-739",
+  "private_key_id": "92096aec80e65aa02fc0c54e5f8ac65053e495a9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgEnywmjPV/846\nUgfZIKhLG4lbZsRHF+awgyhckjxJJs6DAWXtlnnwrbTe2Yhs+TsvWv0R2YLXvILJ\nrg/U2Zv0pGITokUPzJAYM64ePwCdjQtJ2bEqaSE58UFAT16ZjBfwWO1q830fm/24\nz5PkWvVq+8uKKbwgvB6tSs8LFpL/NRumOyXCRfeRk1Rilhyd/9dF532P0vUZ6vqv\nhW6F8E1tzI/tQ9798zk8OyGzXJHcGR2E7ZYYAWq2dDA7Bk/R9CJDxhwaiGYrRRx2\ns5+Kwr+qK9rbo+iJ8JgUV7lc9XeDDgciVP5+ojlrEscX6Cu9nXqjRqt/jkNdmd3c\ni8qm8qHbAgMBAAECggEAIaPg+ohdrnKlF5KXvaTkWWx/EGtngn1eaOgXemTtMH5s\nVhHcJvNByzfmVBMpXaV/L7OSjcbFfatLXTEseJIG+YH2bqPimbBm8/8gb5DUA0hZ\n//o1BnGznua5zNchTWmoukUmGBz1xcfVqZpOPWZ0PziNjQq6U7LVS5v2KSFkYSem\nARpVfS6frCeljd8X8w5A7CUrtXFsvnLCIh9Hltm3a6WoyRpTgo2zd0h2XYg3Ib63\nWUUVSlKP2X6zLjBBvefB2E/e7w6Zp+lDkn4Sr/b5U6mTMWSEIpMmktk2c8xXg6oe\nOXuI1zdW8Zsmcv+JF4mi1dKGyTifb9DIHJRpGwW3iQKBgQDNGS9w1rIam7rmX25r\nFitr8YNjjdwBJf1wPsjlJjlhjyvGGSNDqmqo8o0niCkNnKEsu2bYzbBMVgMOsmX8\nuF1lPCnMBfCgzaTFCCZcVNjQ+IbbnuLX6zTuMbqjS4E4QEI1rp4aggknikBtDj9g\nmJqBsmlOBNgHFgdBlulAv+JwPQKBgQDHzJa1ZNZx3ZoYExc6iIOCkx7nkcoBgVRC\nxVGSwgjZJUtyb8FH31w25x0ULBUmyvLpOPdsKy+tYn6v4C6Sqi/mkhI0xwAbCu8R\nRSV4CM8pXI39J/qs0wNjcK3A09w8b4FEdS/xObC6bU0Zjm1ecicxFX4+Y0jWlNqP\n+q6biKAj9wKBgBg4ICUIBVIlD6YCoOxeWtRNWcGYz+EG1m25zElbAS2nFXk4ILTt\n29iFg+umJYro8xNwMc3qRCZPhd7nbCmyr7yzpQ/lp6ulfQ6TTsxabJwIrQwkMA9l\nRAPYtXxw/xpgZDEopJzmvCQCLGd0ZkGG47/rDIpdAhGcJVE2e+bcgeXVAoGAelea\niSRf84VgUBGQjbT94jy4FdA9w8IvmFs+4gCSbnTZyA8KaToqOyw1sB52LTTknU7W\nopOnNCI1tPgvTHuNrUAQieS4+dYuIYMXuHKcd5VHFJcgdicX0hIzMvoHx7H3k7W2\nT52ly+IV7eo6qjR4LyQcE5O0DEFFvBgiRvbYKG0CgYEAuvuuxIcHpXogKzRiDVNT\nPHFYXjGKgK4WBbidutjyrmPRTz4+CEO+v+2M4cwdqPgB29vlHpGsNrQxb0CMGFB+\n5VGwx72nukEPmpYo3Tv1zAVacDM4/NAtqq3WMP5hHe7BOcf9slrjTrJNrFOJKWqe\nKlsEK7XmLMQjazdJC77gTu4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fastlane-cicd-movies@pc-api-8697287557183738769-739.iam.gserviceaccount.com",
+  "client_id": "103077871705565304294",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fastlane-cicd-movies%40pc-api-8697287557183738769-739.iam.gserviceaccount.com"
+}

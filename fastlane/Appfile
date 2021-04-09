@@ -1,0 +1,2 @@
+json_key_file("/media/dell/7CACDEFAACDEADC0/MyProject/kitabisa-movie/pc-api-8697287557183738769-739-92096aec80e6.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+package_name("com.fastlane.movies") # e.g. com.krausefx.app
